@@ -13,6 +13,23 @@ body{
     grid-template-columns: 0.9fr 2.5fr;
 }
 
+/* Nav menu*/
+
+
+#navbar{
+    overflow-y: scroll;
+}
+.nav-li{
+    list-style: none;
+    padding: 3% 2%;
+    padding-left: 10%;
+    border-top: 1px solid black;
+    margin:0;
+}
+
+
+/*Documentacion*/
+
 .col-2{
     margin-top: 4%;
 }
