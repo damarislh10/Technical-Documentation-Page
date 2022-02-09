@@ -8,7 +8,7 @@ body{
 }
 
 .row{
-    margin:0 3%;
+     margin:0 2%; 
     display: grid;
     grid-template-columns: 0.9fr 2.5fr;
 }
@@ -16,3 +16,33 @@ body{
 .col-2{
     margin-top: 4%;
 }
+
+.main-section >header{
+    font-size:1.8rem;
+    color:black;
+}
+
+.main-section,li{
+   margin-top:15px;
+   margin-left: 3%;
+
+}
+
+p,ul{
+    font-size: 0.96em;
+}
+
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px; 
+}
+
