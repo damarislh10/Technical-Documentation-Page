@@ -1,0 +1,18 @@
+body{
+    color: #4d4e53;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin:0 3%;
+    display: grid;
+    grid-template-columns: 0.9fr 2.5fr;
+}
+
+.col-2{
+    margin-top: 4%;
+}
