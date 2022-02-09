@@ -1,65 +1,84 @@
-body{
-    color: #4d4e53;
-    font-family: 'Open Sans', Arial, sans-serif;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  color: #4d4e53;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.row{
-     margin:0 2%; 
-    display: grid;
-    grid-template-columns: 0.9fr 2.5fr;
+.row {
+  margin: 0 2%;
+  display: grid;
+  grid-template-columns: 0.9fr 3.2fr;
 }
 
 /* Nav menu*/
 
-
-#navbar{
-    overflow-y: scroll;
+h2 {
+  text-align: center;
+  font-weight: 200;
 }
-.nav-li{
-    list-style: none;
-    padding: 3% 2%;
-    padding-left: 10%;
-    border-top: 1px solid black;
-    margin:0;
+#navbar {
+  overflow-y: scroll;
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+.nav-li {
+  list-style: none;
+  padding: 3% 2%;
+  padding-left: 10%;
+  border-top: 1px solid black;
+  margin: 0;
 }
 
+.nav-li > a {
+  text-decoration: none;
+  color:#4d4e53;
+}
 
 /*Documentacion*/
 
-.col-2{
-    margin-top: 4%;
+.col-2 {
+  margin-top: 4%;
 }
 
-.main-section >header{
-    font-size:1.8rem;
-    color:black;
+.main-section > header,
+h2 {
+  font-size: 1.8rem;
+  color: black;
 }
 
-.main-section,li{
-   margin-top:15px;
-   margin-left: 3%;
-
+.main-section,
+li {
+  margin-top: 15px;
+  margin-left: 3%;
 }
 
-p,ul{
-    font-size: 0.96em;
+p,
+ul {
+  font-size: 0.96em;
 }
 
-code{
-    display: block;
-    text-align: left;
-    white-space: pre-line;
-    position: relative;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 2;
-    background-color: #f7f7f7;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 5px; 
+p {
+  margin-left: 1.5%;
 }
-
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
